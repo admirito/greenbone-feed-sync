@@ -1,0 +1,18 @@
+Source: greenbone-feed-sync
+Section: net
+Priority: optional
+Maintainer: Mohammad Razavi <mrazavi64@gmail.com>
+Build-Depends: debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-poetry-core
+Standards-Version: 4.6.2
+Homepage: https://community.greenbone.net/
+Vcs-Browser: https://github.com/admirito/greenbone-feed-sync
+Vcs-Git: https://github.com/admirito/greenbone-feed-sync.git
+Rules-Requires-Root: no
+
+Package: greenbone-feed-sync
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: script for syncing the Greenbone Community Feed
+ New script for syncing the Greenbone Community Feed
+ .
+ This package installs the library for Python 3.
